@@ -160,9 +160,6 @@ h2{
     font-size: 2rem;
 }
 
-
-
-
 #About p{
     padding: 10px;
     text-align: center;
@@ -170,3 +167,32 @@ h2{
     margin-bottom:25px;
 }
 
+@media screen and (min-width: 768px){
+    .album_review{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .album_img{
+        width: 50%;
+        margin-bottom: 20px;
+
+    }
+    .album_overlay{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .grid-item{
+        display: inline-block;
+        width: 33%;
+    }
+    #Albums figcaption{
+        font-size: 1.5rem;
+    }
+    .album_review{
+        font-size: 1.3rem;
+    }
+}
