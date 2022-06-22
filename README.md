@@ -6,13 +6,13 @@ this is a blog that I call "b's archive". The goal with this website is to hone 
 
 <ul>
     <li>Collapsable navigation bar</li>
-    <li>Album section containing hoverable images</li>
+    <li>responsive Album section containing hoverable images</li>
+    <li>Alternative text for all images</li>
 </ul>
 
 ## Features In Progress
 
 <ul>
-    <li>Alternative text for all images</li>
     <li>Movie section containing carousels for each movie</li>
     <li>More responsiveness within sections</li>
     <li>Contact section</li>
