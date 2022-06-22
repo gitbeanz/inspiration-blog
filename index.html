@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>My Favorite Things</title>
+    <title>B's Archive</title>
   </head>
   <body>
     <nav class="navbar">
@@ -31,7 +31,7 @@
     <div class="main-content">
       <section id="About">
         <h2>About</h2>
-        <p>
+        <p class="p-intro">
           Welcome! This is a website designed to archive my thoughts on the art
           that I consume, so that I never forget what inspired me. Take a look
           around and check out the catalogue. Enjoy - b<sup>*</sup>
@@ -205,7 +205,56 @@
         <h2>Movies</h2>
       </section>
       <section id="Contact Me">
-        <h2>Contact Me</h2>
+        <div class="contact-container">
+          <h2>Contact Me</h2>
+          <p>I'm currently looking for positions as a front-end intern.</p>
+          <p>
+            Please contact me if you would like to work together. Thanks for
+            stopping bye!
+          </p>
+          <div class="contact-box">
+            <div class="contact-message">
+              <h3>Send a message</h3>
+              <form id="message">
+                <div class="input-row">
+                  <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="John Doe" />
+                  </div>
+                  <div class="input-group">
+                    <label>Phone</label>
+                    <input type="text" placeholder="661-418-1981" />
+                  </div>
+                  <div class="input-group">
+                    <label>Email</label>
+                    <input
+                      type="email"
+                      placeholder="brandongumayagay@gmail.com"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Potential Collaboration" />
+                  </div>
+                </div>
+              </form>
+              <button id="message" class="msg-btn">Submit</button>
+            </div>
+            <div class="contact-accounts">
+              <h3>Other accounts</h3>
+              <p>
+                Github:
+                <a href="https://github.com/gitbeanz"
+                  ><i class="fa fa-github"></i
+                ></a>
+                Linkedin:
+                <a href="https://www.linkedin.com/in/brandon-gumayagay/"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
     <script src="app.js"></script>

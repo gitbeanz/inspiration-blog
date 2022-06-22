@@ -195,4 +195,36 @@ h2{
     .album_review{
         font-size: 1.3rem;
     }
+    .p-intro{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
+.contact-container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.contact-container p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.contact-box{
+    display: block;
+}
+
+.contact-message{
+    text-align: center;
+}
+.input-group{
+    padding: 0.5rem;
+}
+.msg-btn{
+    margin-top: 0.5rem;
+}
+.contact-accounts{
+    text-align: center;
+}
+
