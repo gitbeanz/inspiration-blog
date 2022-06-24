@@ -138,8 +138,19 @@ h2{
 
 .album:hover .album_overlay{
     opacity: 0.8;
+    cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: #1DB954;
+    text-decoration: underline;
+
+}
 
 .album_review{
     color: white;
@@ -160,7 +171,7 @@ h2{
     font-size: 2rem;
 }
 
-#About p{
+#About,#Albums .p-intro{
     padding: 10px;
     text-align: center;
     font-size: 1.3em;
