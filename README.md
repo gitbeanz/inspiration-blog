@@ -6,7 +6,7 @@ this is a blog that I call "b's archive". The goal with this website is to hone 
 
 <ul>
     <li>Collapsable navigation bar</li>
-    <li>responsive Album section containing hoverable images</li>
+    <li>responsive Album section containing hoverable images & links to their respective Spotify page</li>
     <li>Alternative text for all images</li>
     <li>responsive Contact section</li>
 </ul>
@@ -17,5 +17,6 @@ this is a blog that I call "b's archive". The goal with this website is to hone 
     <li>Movie section containing carousels for each movie</li>
     <li>More responsiveness within sections</li>
     <li>Make contact message section function through JavaScript</li>
-    <li>Link to Spotify page of album in album section when clicking on album cover</li>
+    <li>More accessibility</li>
+    <li>Rework navigation bar; add animations, fix position</li>
 </ul>
