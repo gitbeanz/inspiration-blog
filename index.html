@@ -230,20 +230,73 @@
       <section id="Movies">
         <h2>Movies</h2>
         <div class="slideshow-container">
-          <div class="slide">
-            <div class="number-text">1 / 3</div>
+          <div class="slide fade">
+            <div class="number-text">1 / 5</div>
             <img
               src="babydriver.jpg"
               class="movie_img"
               style="object-position: top"
             />
-            <div class="movie-caption">Baby Driver</div>
+            <div class="movie-caption">
+              <mark
+                ><a
+                  class="movie-link"
+                  href="https://www.imdb.com/title/tt3890160/"
+                  >Baby Driver (2017)</a
+                ></mark
+              >
+            </div>
           </div>
-          <div class="slide">
-            <div class="number-text">2 / 3</div>
+          <div class="slide fade">
+            <div class="number-text">2 / 5</div>
             <img src="babydriver2.jpg" class="movie_img" />
-            <div class="movie-caption">Director: Edgar Wright</div>
+            <div class="movie-caption">
+              <mark
+                ><a
+                  class="movie-link"
+                  href="https://www.imdb.com/name/nm0942367/?ref_=tt_cl_dr_1"
+                  >Director: Edgar Wright</a
+                ></mark
+              >
+            </div>
           </div>
+          <div class="slide fade">
+            <div class="number-text">3 / 5</div>
+            <img
+              src="babydriver3.jpg"
+              class="movie_img"
+              style="object-position: initial"
+            />
+            <div class="movie-caption"></div>
+          </div>
+          <div class="slide fade">
+            <div class="number-text">4 / 5</div>
+            <img
+              src="babydriver4.jpg"
+              class="movie_img"
+              style="object-position: 35% 65%"
+            />
+            <div class="movie-caption"></div>
+          </div>
+          <div class="slide fade">
+            <div class="number-text">5 / 5</div>
+            <img
+              src="babydriver5.jpg"
+              class="movie_img"
+              style="object-position: 40% 60%"
+            />
+            <div class="movie-caption"></div>
+          </div>
+          <a class="previous-btn" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next-btn" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
         </div>
       </section>
       <section id="Contact Me">
