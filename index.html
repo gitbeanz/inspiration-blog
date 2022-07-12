@@ -229,8 +229,9 @@
       </section>
       <section id="Movies">
         <h2>Movies</h2>
+        <p>
         <div class="slideshow-container">
-          <div class="slide fade">
+          <div class="slide1">
             <div class="number-text">1 / 5</div>
             <img
               src="babydriver.jpg"
@@ -247,7 +248,7 @@
               >
             </div>
           </div>
-          <div class="slide fade">
+          <div class="slide1">
             <div class="number-text">2 / 5</div>
             <img src="babydriver2.jpg" class="movie_img" />
             <div class="movie-caption">
@@ -260,7 +261,7 @@
               >
             </div>
           </div>
-          <div class="slide fade">
+          <div class="slide1">
             <div class="number-text">3 / 5</div>
             <img
               src="babydriver3.jpg"
@@ -269,7 +270,7 @@
             />
             <div class="movie-caption"></div>
           </div>
-          <div class="slide fade">
+          <div class="slide1">
             <div class="number-text">4 / 5</div>
             <img
               src="babydriver4.jpg"
@@ -278,7 +279,7 @@
             />
             <div class="movie-caption"></div>
           </div>
-          <div class="slide fade">
+          <div class="slide1">
             <div class="number-text">5 / 5</div>
             <img
               src="babydriver5.jpg"
@@ -287,17 +288,82 @@
             />
             <div class="movie-caption"></div>
           </div>
-          <a class="previous-btn" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next-btn" onclick="plusSlides(1)">&#10095;</a>
+          <a class="previous-btn" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next-btn" onclick="plusSlides(1, 0)">&#10095;</a>
         </div>
+        </p>
+        <p>
+          <div class="slideshow-container">
+            <div class="slide2">
+              <div class="number-text">1 / 5</div>
+              <img
+                src="spiderverse1.jpg"
+                class="movie_img"
+                style="object-position: top"
+              />
+              <div class="movie-caption" font-size="1rem">
+                <mark
+                  ><a
+                    class="movie-link"
+                    href="https://www.imdb.com/title/tt4633694/" 
+                    >Spider-Man: Into the Spider-Verse (2018)</a
+                  ></mark
+                >
+              </div>
+            </div>
+            <div class="slide2">
+              <div class="number-text">2 / 5</div>
+              <img src="spiderverse2.jpg" class="movie_img" />
+              <div class="movie-caption">
+                <mark
+                  ><a
+                    class="movie-link"
+                    href="https://www.imdb.com/name/nm2130108/?ref_=tt_cl_dr_1"
+                    >Director: Bob Persichetti</a
+                  ></mark
+                >
+              </div>
+            </div>
+            <div class="slide2">
+              <div class="number-text">3 / 5</div>
+              <img
+                src="spiderverse3.jpg"
+                class="movie_img"
+                style="object-position: initial"
+              />
+              <div class="movie-caption">
+                <mark>
+                  <a class="movie-link" href="https://www.imdb.com/name/nm0709056/?ref_=tt_ov_dr">Director: Peter Ramsey</a>
+                </mark>
+              </div>
+            </div>
+            <div class="slide2">
+              <div class="number-text">4 / 5</div>
+              <img
+                src="spiderverse4.jpg"
+                class="movie_img"
+              />
+              <div class="movie-caption"><mark
+                ><a
+                  class="movie-link"
+                  href="https://www.imdb.com/name/nm0745247/?ref_=tt_ov_dr"
+                  >Director: Rodney Rothman</a
+                ></mark
+              ></div>
+            </div>
+            <div class="slide2">
+              <div class="number-text">5 / 5</div>
+              <img
+                src="spiderverse5.jpg"
+                class="movie_img"
+              />
+              <div class="movie-caption"></div>
+            </div>
+            <a class="previous-btn" onclick="plusSlides(-1,1)">&#10094;</a>
+            <a class="next-btn" onclick="plusSlides(1,1)">&#10095;</a>
+          </div>
+          </p>
         <br />
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
-        </div>
       </section>
       <section id="Contact Me">
         <div class="contact-container">

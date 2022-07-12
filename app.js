@@ -4,33 +4,27 @@ toggleButton.addEventListener('click',()=>{
     links.classList.toggle('active');
 })
 
-let slideIndex = 1;
-showSlides(slideIndex);
+let slideIndex = [1,1];
+let slideId = ["slide1", "slide2"];
+showSlides(1,0);
+showSlides(1,1);
 
-function showSlides(slidePage){
+function showSlides(slidePage, no){
     let i;
-    let slides = document.getElementsByClassName("slide");
-    let dots = document.getElementsByClassName("dot");
+    let slides = document.getElementsByClassName(slideId[no]);
     if (slidePage > slides.length){
-        slideIndex = 1;
+        slideIndex[no] = 1;
     }
     if (slidePage < 1){
-        slideIndex = slides.length;
+        slideIndex[no] = slides.length;
     }
     for (i = 0; i < slides.length; i++){
         slides[i].style.display = "none";
     }
-    for (i=0; i < dots.length; i++){
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    slides[slideIndex[no]-1].style.display = "block";
 }
 
-function plusSlides(n){
-    showSlides(slideIndex += n);
+function plusSlides(n, no){
+    showSlides(slideIndex[no] += n, no);
 }
 
-function currentSlide(n){
-    showSlides(slideIndex = n);
-}
