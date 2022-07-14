@@ -4,12 +4,17 @@ toggleButton.addEventListener('click',()=>{
     links.classList.toggle('active');
 })
 
-let slideIndex = [1,1,1,1];
-let slideId = ["slide1", "slide2","slide3","slide4"];
+let slideIndex = [1,1,1,1,1,1,1,1,1];
+let slideId = ["slide1", "slide2","slide3","slide4","slide5", "slide6","slide7","slide8","slide9"];
 showSlides(1,0);
 showSlides(1,1);
 showSlides(1,2);
-showSlides(1,3)
+showSlides(1,3);
+showSlides(1,4);
+showSlides(1,5);
+showSlides(1,6);
+showSlides(1,7);
+showSlides(1,8);
 
 function showSlides(slidePage, no){
     let i;
