@@ -35,3 +35,14 @@ function plusSlides(n, no){
     showSlides(slideIndex[no] += n, no);
 }
 
+function addContactInfo(){
+    console.log("TEST");
+    var number = document.getElementById("number").value;
+    console.log(number);
+    var subject = document.getElementById("subject").value;
+    console.log(subject);
+    var message = document.getElementById("message").value;
+    console.log(message);
+    document.getElementById("message").value =  'Subject: ' + subject + '\n' + 'Phone: ' + number + '\n' + message;
+
+}
