@@ -5,18 +5,15 @@ this is a blog that I call "b's archive". The goal with this website is to hone 
 ## Current Features
 
 <ul>
-    <li>Collapsable navigation bar</li>
-    <li>responsive Album section containing hoverable images & links to their respective Spotify page</li>
+    <li>Collapsable navigation bar & "back to top" button</li>
+    <li>Album section containing hoverable images & links to their respective Spotify page</li>
+    <li>Movie section conaining slideshows with images of movies, directors & links to their respective IMDB pages</li>
     <li>Alternative text for all images</li>
-    <li>responsive Contact section</li>
+    <li>Contact section powered by Getform.io</li>
 </ul>
 
 ## Features In Progress
 
 <ul>
-    <li>Movie section containing carousels for each movie</li>
-    <li>More responsiveness within sections</li>
-    <li>Make contact message section function through JavaScript</li>
-    <li>More accessibility</li>
-    <li>Rework navigation bar; add animations, fix position</li>
+    <li>more alternative text</li>
 </ul>
