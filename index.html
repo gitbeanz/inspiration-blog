@@ -229,6 +229,9 @@
       </section>
       <section id="Movies">
         <h2>Movies</h2>
+        <p class="p-intro">
+          These are my favorite movies that I constantly think about / rewatch. Navigate the slides using the < & > buttons. Click over the movie titles & director names to be taken to their IMDB pages.
+        </p>
         <div class="movie-grid-item-left">
         <p>
         <div class="slideshow-container">
@@ -855,34 +858,35 @@
           <div class="contact-box">
             <div class="contact-message">
               <h3>Send a message</h3>
-              <form id="message">
+              <form action="https://getform.io/f/125230b7-2876-4c66-a6f0-6fb9efd84b25" method="POST">
                 <div class="input-row">
                   <div class="input-group">
                     <label>Name</label>
-                    <input type="text" placeholder="John Doe" />
+                    <input type="text" placeholder="John Doe" name = "name"/>
                   </div>
                   <div class="input-group">
                     <label>Phone</label>
-                    <input type="text" placeholder="212-210-2001" />
+                    <input type="text" placeholder="212-210-2001" id="number" />
                   </div>
                 </div>
                 <div class="input-row">
                   <div class="input-group">
                     <label>Email</label>
-                    <input type="email" placeholder="user@email.com" />
+                    <input type="email" placeholder="user@email.com" name="email"/>
                   </div>
                   <div class="input-group">
                     <label>Subject</label>
-                    <input type="text" placeholder="Potential Collaboration" />
+                    <input type="text" id="subject" placeholder="Potential Collaboration"  />
                   </div>
                 </div>
                 <label>Message</label>
                 <textarea
                   rows="5"
-                  placeholder="Please enter your message here"
+                  placeholder="Please enter your message here" id="message" name="message"
                 ></textarea>
+                 <button id="message" onclick="addContactInfo()" class="msg-btn">Submit</button>
               </form>
-              <button id="message" class="msg-btn">Submit</button>
+             
             </div>
             <div class="contact-accounts">
               <h3>Reach Me</h3>
