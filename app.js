@@ -1,3 +1,6 @@
+var topButton = document.getElementById("top-btn");
+window.onscroll = function() {scrollFunction()};
+
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const links = document.getElementsByClassName('links')[0]
 toggleButton.addEventListener('click',()=>{
@@ -45,4 +48,19 @@ function addContactInfo(){
     console.log(message);
     document.getElementById("message").value =  'Subject: ' + subject + '\n' + 'Phone: ' + number + '\n' + message;
 
+}
+
+function scrollFunction(){
+    console.log("HI");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+        topButton.style.display = "block";
+    }
+    else{
+        topButton.style.display = "none";
+    }
+}
+
+function goTop(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
