@@ -11,9 +11,3 @@ this is a blog that I call "b's archive". The goal with this website is to hone 
     <li>Alternative text for all images</li>
     <li>Contact section powered by Getform.io</li>
 </ul>
-
-## Features In Progress
-
-<ul>
-    <li>more alternative text</li>
-</ul>
